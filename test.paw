@@ -1,0 +1,13 @@
+// DotPaw test configuration file
+
+app.name: MyWebsite
+app.debug: true [bool]
+app.port: 8080 [int]
+
+db.host: localhost
+db.port: 5432 [int]
+
+list.values: [1, 2, 3]
+set.values: {1, 2, 3}
+dict.values: {'1': 'a', '2': 'b', '3': 'c'}
+tuple.values: (1, 2, 3)

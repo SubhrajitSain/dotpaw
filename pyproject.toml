@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dotpaw"
+version = "1.0"
+authors = [
+  { name="SubhrajitSain", email="mail@anw.is-a.dev" },
+]
+description = "DotPaw configuration file format"
+keywords = ["paw", "dot", "dotpaw", "configuration", "config", "conf", "anw"]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: File Formats"
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+"Dev. Website" = "https://anw.is-a.dev"
+Repository = "https://github.com/SubhrajitSain/dotpaw"
+Documentation = "https://github.com/SubhrajitSain/dotpaw/blob/main/README.md"
+Issues = "https://github.com/SubhrajitSain/dotpaw/issues"
+
+[tool.hatch.build]
+packages = ["dotpaw"]
+package-dir = { "" = "src" }
