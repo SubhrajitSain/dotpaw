@@ -1,11 +1,8 @@
 # DotPaw 🐾
 
-A simple configuration file parser for Python using `.paw` files.
+A simple configuration file parser for Python using `.paw` files.  
 
-![PyPI](https://img.shields.io/pypi/v/dotpaw?style=for-the-badge)
-![Python](https://img.shields.io/pypi/pyversions/dotpaw?style=for-the-badge)
-![License](https://img.shields.io/pypi/l/dotpaw?style=for-the-badge)
-![Downloads](https://img.shields.io/pypi/dm/dotpaw?style=for-the-badge)
+[View on PyPI](https://pypi.org/project/dotpaw)
 
 ---
 
